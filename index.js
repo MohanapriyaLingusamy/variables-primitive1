@@ -1,3 +1,4 @@
+//STRING METHODS
 let variable= "priya";
 
 console.log(variable.length)
@@ -28,7 +29,7 @@ console.log(variable.repeat(2))
 //repeat values
 //output:priyapriya
 
-console.log(variable.replace(/[pr]/g,"i"))
+console.log(variable.replace("p","i"))
 //replaces the letter
 //output:rriya
 
@@ -64,4 +65,78 @@ console.log(variable.trim())
 //ignore space
 //output:priya
 
+
+
+//NUMBER METHODS
+
+let num=3.33;
+console.log(num.toFixed(1))
+//converts to fixed numbers
+//output:3.3
+
+console.log(num.toString())
+//converts to string
+//output:3.33
+
+console.log(num.toExponential())
+//converts to exponential values
+//output:3.33e+0
+
+
+
+
+//GLOBAL METHODS
+let num=3.33;
+
+//console methods
+console.log("Hello")
+//display in console
+//output:Hello
+
+console.warn("hi")
+//display as warning
+//output:hi-yellow color
+
+console.error("error")
+//display as error msg
+//output:error in red color
+
+console.table(["a", "b", "c"]);
+//creates table
+
+//alert("hello")
+//gives an alert message
+//output:hello
+
+//console.log(prompt())
+//displays a dialog box that prompts input
+//output: entereed value
+
+//confirm("Press a button!")
+//displays a dialog box with a specified message
+//output:Press a button!
+
+console.log(typeof(Number("a")))
+//converts to numeric
+//output:numeric
+
+console.log(isNaN(num))
+//checks for Not an Number 
+//output:false
+
+console.log(parseFloat(3e+2))
+//converts to float values
+//output:300
+
+console.log(parseInt(4.4))
+//converts to integer values
+//output:4
+
+console.log(typeof(String(3)))
+//converts to string
+//o/p:string
+
+console.log(Boolean(null))
+//returns true if contains value else 0
+//output:false
 
