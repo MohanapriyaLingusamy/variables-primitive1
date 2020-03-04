@@ -93,6 +93,10 @@ console.log("Hello")
 //display in console
 //output:Hello
 
+console.info("hello")
+//console message 
+//output:hello
+
 console.warn("hi")
 //display as warning
 //output:hi-yellow color
@@ -116,9 +120,9 @@ console.table(["a", "b", "c"]);
 //displays a dialog box with a specified message
 //output:Press a button!
 
-console.log(typeof(Number("a")))
+console.log(Number("a"))
 //converts to numeric
-//output:numeric
+//output:NaN
 
 console.log(isNaN(num))
 //checks for Not an Number 
